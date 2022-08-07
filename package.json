@@ -1,0 +1,27 @@
+{
+    "name": "travel-in-japan",
+    "description": "Traveling guide for major cities in Japan",
+    "author": "Marios Tsioutsis",
+    "private": true,
+    "workspaces": [
+        "client",
+        "server"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mariosts95/travel-in-japan.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Mariosts95/travel-in-japan/issues"
+    },
+    "homepage": "https://github.com/Mariosts95/travel-in-japan#readme",
+    "scripts": {
+        "start_client": "yarn workspace client dev",
+        "start_server": "yarn workspace server dev"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "extends": [
+        "airbnb",
+        "airbnb/hooks",
+        "prettier",
+        "plugin:react/jsx-runtime"
+    ],
+    "plugins": [
+        "prettier"
+    ],
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "import/no-extraneous-dependencies": "off",
+        "prettier/prettier": "warn",
+        "no-unused-vars": "warn",
+        "no-console": "off",
+        "func-names": "off",
+        "no-process-exit": "off",
+        "no-shadow": "off"
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    }
+}
