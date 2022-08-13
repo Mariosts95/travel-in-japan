@@ -3,7 +3,8 @@
         "airbnb",
         "airbnb/hooks",
         "prettier",
-        "plugin:react/jsx-runtime"
+        "plugin:react/jsx-runtime",
+        "plugin:storybook/recommended"
     ],
     "plugins": [
         "prettier"
@@ -17,7 +18,8 @@
         "no-console": "off",
         "func-names": "off",
         "no-process-exit": "off",
-        "no-shadow": "off"
+        "no-shadow": "off",
+        "react/function-component-definition": "off"
     },
     "env": {
         "browser": true,

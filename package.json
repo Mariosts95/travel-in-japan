@@ -17,7 +17,8 @@
     "homepage": "https://github.com/Mariosts95/travel-in-japan#readme",
     "scripts": {
         "start_client": "yarn workspace client dev",
-        "start_server": "yarn workspace server dev"
+        "start_server": "yarn workspace server dev",
+        "storybook_dev": "yarn workspace client storybook"
     },
     "config": {
         "commitizen": {
