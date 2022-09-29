@@ -1,23 +1,23 @@
 {
-    "arrowParens": "always",
-    "semi": true,
-    "singleQuote": true,
-    "jsxSingleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "es5",
-    "bracketSpacing": true,
-    "importOrder": [
-        "^react",
-        "^\\w",
-        "/types/",
-        "/hooks/",
-        "/store/",
-        "/views/",
-        "/components/",
-        "/assets/",
-        "^./",
-        "css$"
-    ],
-    "importOrderSeparation": true,
-    "importOrderSortSpecifiers": true
+  "arrowParens": "always",
+  "semi": true,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "importOrder": [
+    "^react",
+    "^\\w",
+    "/types/",
+    "/hooks/",
+    "/store/",
+    "/views/",
+    "/components/",
+    "/assets/",
+    "^./",
+    "css$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }
